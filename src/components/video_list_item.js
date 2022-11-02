@@ -5,7 +5,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
     // const video  = props.video; same as above argument 'video'
 
     const imageUrl = video.snippet.thumbnails.default.url;
-    return (<ul>
+    return (
             <li className="list-group-item" onClick={() => onVideoSelect(video) }>
                 <div className="video-list media">
                     <div className="media-left">
@@ -16,7 +16,6 @@ const VideoListItem = ({video, onVideoSelect}) => {
                     </div>
                 </div>
             </li>
-            </ul>
     )
 }
 

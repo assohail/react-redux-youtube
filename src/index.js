@@ -9,8 +9,6 @@ import VideoDetail from "./components/video_detail";
 
 const API_Key = 'AIzaSyAbFrX5yPRq0ZM9L-QPwgB64etoTNP4fyo';
 
-
-
 class App extends Component {
     constructor(props){
         super(props);
@@ -25,17 +23,15 @@ class App extends Component {
 
     videoSearch(term) {
         YTSearch({key: API_Key,  term: term}, (videos) => { 
-            console.log('YTS');
             this.setState({
                 videos: videos,
                 selectedVideo: videos[0]
             });
-            console.log('selectedVideo:');
-            console.log(selectedVideo);
         });
     }
 
     render(){
+        //where its used
         const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
         
         return ( 
