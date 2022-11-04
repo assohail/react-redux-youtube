@@ -7,6 +7,7 @@ const VideoDetail = ({video}) => {
     }
 
     const videoId = video.id.videoId;
+    // can see url formatting from youtube share video, press embed button
     const url = `https://www.youtube.com/embed/${videoId}`;
 
     return(
