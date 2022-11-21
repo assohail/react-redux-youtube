@@ -1,6 +1,7 @@
 # React Redux Youtube
-
 Interested in learning [Redux](https://redux.js.org/introduction/getting-started)?
+
+It's a simple app built using React and Redux. It can be used to search and play the top 5 titles of any keyword from the youtube. Can be updated according to the requirements.
 
 ### Getting Started
 ```
@@ -9,7 +10,8 @@ Interested in learning [Redux](https://redux.js.org/introduction/getting-started
 > npm install
 > npm start
 ```
-
+### Url
+[Localhost](127.0.0.1:8080)
 ### Used Packages
 Here is the list of packages and their purpose, used to build the app. Starter packages are not listed here. 
 * #### youtube-api-search
