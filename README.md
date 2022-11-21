@@ -1,4 +1,5 @@
-# React Redux Youtube
+# [React Redux Youtube](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)
+
 Interested in learning [Redux](https://redux.js.org/introduction/getting-started)?
 
 It's a simple app built using React and Redux. It can be used to search and play the top 5 titles of any keyword from the youtube. Can be updated according to the requirements.
