@@ -11,7 +11,7 @@ It's a simple app built using React and Redux. It can be used to search and play
 > npm start
 ```
 ### Url
-[Localhost](127.0.0.1:8080)
+[Localhost: 127.0.0.1:8080](127.0.0.1:8080)
 ### Used Packages
 Here is the list of packages and their purpose, used to build the app. Starter packages are not listed here. 
 * #### youtube-api-search
