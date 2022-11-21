@@ -4,6 +4,12 @@ Interested in learning [Redux](https://redux.js.org/introduction/getting-started
 
 It's a simple app built using React and Redux. It can be used to search and play the top 5 titles of any keyword from the youtube. Can be updated according to the requirements.
 
+### Tools, Languages, Frameworks
+* YouTube Data API
+* React
+* Redux
+* JS 
+* Node
 ### Getting Started
 ```
 > git clone https://github.com/assohail/react-redux-youtube.git
